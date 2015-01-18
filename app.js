@@ -1,11 +1,10 @@
 $(document).ready(function() {
-	var firstNum =  parseInt(prompt("Enter a number: "));
+	var firstNum =  (prompt("Enter a number: "));
    numCheck(firstNum);
    
 });
 
 function fizzBuzz(firstNum) {
-   
 for (var i = 1; i <= firstNum; i++) {
 
 		if (i % 15 === 0) {
